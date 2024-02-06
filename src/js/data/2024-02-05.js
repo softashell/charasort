@@ -277,5 +277,75 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["pug"]
     }
+  },
+  {
+    name: "soft as HELL",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "bauxite",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "Boltronics",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "StellaNova",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "Grass",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "Legoracer",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "Moffin",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "You're Pissed Off",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "Infrequent",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
+  },
+  {
+    name: "DESTROYGIRL",
+    img: "hx1qvj.png",
+    opts: {
+      series: ["pug"]
+    }
   }
 ];
