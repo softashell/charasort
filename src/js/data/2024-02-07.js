@@ -8,7 +8,7 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: true,
     sub: [
-      { name: "Puggers", key: "pug", checked: true  },
+      { name: "Puggers", key: "pug", checked: false  },
       { name: "Division 1", key: "div1"},
       { name: "Division 2", key: "div2" },
       { name: "Division 3", key: "div3" },
