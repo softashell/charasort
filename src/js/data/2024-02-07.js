@@ -9,7 +9,11 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [
       { name: "Puggers", key: "pug" },
-      { name: "Division 1", key: "div1" }
+      { name: "Division 1", key: "div1" },
+      { name: "Division 2", key: "div2" },
+      { name: "Division 3", key: "div3" },
+      { name: "Division 4", key: "div4" },
+      { name: "Unknown", key: "unknown" }
     ]
   },
   {
@@ -19,7 +23,8 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [
       { name: "WIN", key: "win" },
-      { name: "GB", key: "gb" }
+      { name: "GB", key: "gb" },
+      { name: "Auxless", key: "aux-" }
     ]
   },
   {
@@ -49,7 +54,9 @@ dataSet[dataSetVersion].characterData = [
     name: "Oni",
     img: "hx1qvj.png",
     opts: {
-      series: ["pug"]
+      series: ["pug", "div1"],
+      teams: ["aux-"],
+      class: ["r", "a"]
     }
   },
   {
