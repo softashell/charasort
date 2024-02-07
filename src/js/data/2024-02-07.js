@@ -33,7 +33,8 @@ dataSet[dataSetVersion].options = [
       { name: "Recon Feet", key: "FEET" },
       { name: "Winning Team", key: "win" },
       { name: "AHNS", key: "ahns" },
-      { name: "renraku", key: "renraku" },
+      { name: "Renraku", key: "renraku" },
+      { name: "OP", key: "op" },
       { name: "BK", key: "BK" },
       { name: "FD", key: "FD" },
       { name: "PIGA", key: "PIGA" },
@@ -106,7 +107,7 @@ dataSet[dataSetVersion].characterData = [
         img: "hx1qvj.png",
         opts: {
             series: ["pug", "div1"],
-            teams: ["win", "OP"],
+            teams: ["win", "OP", "gb"],
             class: ["r", "a", "s"]
         }
     },
@@ -394,7 +395,7 @@ dataSet[dataSetVersion].characterData = [
         img: "hx1qvj.png",
         opts: {
             series: ["pug", "div2"],
-            teams: ["win"],
+            teams: ["win", "gb"],
             class: ["a", "s"]
         }
     },
