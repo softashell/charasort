@@ -6,13 +6,13 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Series Entry",
     key: "series",
     tooltip: "Check this to restrict to certain series.",
-    checked: false,
+    checked: true,
     sub: [
-      { name: "Puggers", key: "pug" },
-      { name: "Division 1", key: "div1" },
+      { name: "Puggers", key: "pug", checked: true  },
+      { name: "Division 1", key: "div1"},
       { name: "Division 2", key: "div2" },
       { name: "Division 3", key: "div3" },
-      { name: "Division 4", key: "div4" },
+      { name: "Division 4", key: "div4", checked: false  },
       { name: "Unknown", key: "unknown", checked: false }
     ]
   },
