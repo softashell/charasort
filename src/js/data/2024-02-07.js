@@ -359,13 +359,6 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Infrequent",
-    img: "hx1qvj.png",
-    opts: {
-      series: ["pug"]
-    }
-  },
-  {
     name: "DESTROYGIRL",
     img: "hx1qvj.png",
     opts: {
