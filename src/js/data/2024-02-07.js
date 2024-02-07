@@ -21,6 +21,17 @@ dataSet[dataSetVersion].options = [
       { name: "WIN", key: "win" },
       { name: "GB", key: "gb" }
     ]
+  },
+  {
+    name: "Filter by Class",
+    key: "class",
+    tooltip: "Check this to restrict to class.",
+    checked: false,
+    sub: [
+      { name: "Recon", key: "r" },
+      { name: "Assault", key: "a" },
+      { name: "Support", key: "s" }
+    ]
   }
 ];
 
@@ -30,7 +41,8 @@ dataSet[dataSetVersion].characterData = [
     img: "hx1qvj.png",
     opts: {
       series: ["pug", "div1"],
-      teams: ["win", "gb"]
+      teams: ["win", "gb"],
+      class: ["r", "a"]
     }
   },
   {
