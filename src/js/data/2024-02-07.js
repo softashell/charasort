@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
       { name: "Division 2", key: "div2" },
       { name: "Division 3", key: "div3" },
       { name: "Division 4", key: "div4" },
-      { name: "Unknown", key: "unknown" }
+      { name: "Unknown", key: "unknown", checked: false }
     ]
   },
   {
